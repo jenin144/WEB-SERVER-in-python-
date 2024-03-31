@@ -1,0 +1,42 @@
+body {/* Background pic */
+    background-image: url("https://www.itl.cat/pngfile/big/283-2835360_desktop-wallpaper.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+  background-color: #131d3b;/* boxes of names and hobbies*/
+  border-radius:50px;
+  color: #c2b3b3;
+  font-family:serif;
+  font-size:130%;
+  padding:3px;
+  margin:25px  auto;
+  width: 1000px;
+  height: 70px;
+  text-align: center; /* Center the text within the paragraph */
+
+}
+
+#obj1 { /* png pic */
+    width: 100px;
+    height: 20px;
+    object-position: center top;
+    float: none; //leftorrightornone
+}
+
+
+.link-container { /* to set the html link in the right bottom corner of the screen */
+    position: fixed;
+    bottom: 1px;
+    font-size:130%;
+    right: 10px;
+
+}
+.link-container2 {/* to set the website link in the left bottom corner of the screen */
+    position: fixed;
+    bottom: 1px;
+    font-size:130%;
+    left: 10px;
+}
